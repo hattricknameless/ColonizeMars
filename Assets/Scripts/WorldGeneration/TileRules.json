@@ -1,0 +1,433 @@
+{
+    "rules": [
+    {
+        "rule": "Bot_r0",
+        "tileType": "Bot",
+        "rotation": "0",
+        "px": "Full_Side",
+        "nx": "Empty",
+        "py": "Edge_Vertical_0",
+        "ny": "Full_Vertical",
+        "pz": "Bot_Side_R",
+        "nz": "Bot_Side_R"
+    },
+    {
+        "rule": "Bot_r1",
+        "tileType": "Bot",
+        "rotation": "1",
+        "px": "Bot_Side_R",
+        "nx": "Bot_Side_R",
+        "py": "Edge_Vertical_1",
+        "ny": "Full_Vertical",
+        "pz": "Empty",
+        "nz": "Full_Side"
+    },
+    {
+        "rule": "Bot_r2",
+        "tileType": "Bot",
+        "rotation": "2",
+        "px": "Empty",
+        "nx": "Full_Side",
+        "py": "Edge_Vertical_2",
+        "ny": "Full_Vertical",
+        "pz": "Bot_Side_L",
+        "nz": "Bot_Side_L"
+    },
+    {
+        "rule": "Bot_r3",
+        "tileType": "Bot",
+        "rotation": "3",
+        "px": "Bot_Side_L",
+        "nx": "Bot_Side_L",
+        "py": "Edge_Vertical_3",
+        "ny": "Full_Vertical",
+        "pz": "Full_Side",
+        "nz": "Empty"
+    },
+
+    {
+        "rule": "Bot_Inverse_r0",
+        "tileType": "Bot_Inverse",
+        "rotation": "0",
+        "px": "Full_Side",
+        "nx": "Bot_Side_R",
+        "py": "Inverse_Vertical_0",
+        "ny": "Full_Vertical",
+        "pz": "Bot_Side_R",
+        "nz": "Full_Side"
+    },
+    {
+        "rule": "Bot_Inverse_r1",
+        "tileType": "Bot_Inverse",
+        "rotation": "1",
+        "px": "Bot_Side_R",
+        "nx": "Full_Side",
+        "py": "Inverse_Vertical_1",
+        "ny": "Full_Vertical",
+        "pz": "Bot_Side_L",
+        "nz": "Full_Side"
+    },
+    {
+        "rule": "Bot_Inverse_r2",
+        "tileType": "Bot_Inverse",
+        "rotation": "2",
+        "px": "Bot_Side_L",
+        "nx": "Full_Side",
+        "py": "Inverse_Vertical_2",
+        "ny": "Full_Vertical",
+        "pz": "Full_Side",
+        "nz": "Bot_Side_L"
+    },
+    {
+        "rule": "Bot_Inverse_r3",
+        "tileType": "Bot_Inverse",
+        "rotation": "3",
+        "px": "Full_Side",
+        "nx": "Bot_Side_L",
+        "py": "Inverse_Vertical_3",
+        "ny": "Full_Vertical",
+        "pz": "Full_Side",
+        "nz": "Bot_Side_R"
+    },
+
+    {
+        "rule": "Bot_Corner_r0",
+        "tileType": "Bot_Corner",
+        "rotation": "0",
+        "px": "Bot_Side_R",
+        "nx": "Empty",
+        "py": "Corner_Vertical_0",
+        "ny": "Full_Vertical",
+        "pz": "Empty",
+        "nz": "Bot_Side_R"
+    },
+    {
+        "rule": "Bot_Corner_r1",
+        "tileType": "Bot_Corner",
+        "rotation": "1",
+        "px": "Empty",
+        "nx": "Bot_Side_R",
+        "py": "Corner_Vertical_1",
+        "ny": "Full_Vertical",
+        "pz": "Empty",
+        "nz": "Bot_Side_L"
+    },
+    {
+        "rule": "Bot_Corner_r2",
+        "tileType": "Bot_Corner",
+        "rotation": "2",
+        "px": "Empty",
+        "nx": "Bot_Side_L",
+        "py": "Corner_Vertical_2",
+        "ny": "Full_Vertical",
+        "pz": "Bot_Side_L",
+        "nz": "Empty"
+    },
+    {
+        "rule": "Bot_Corner_r3",
+        "tileType": "Bot_Corner",
+        "rotation": "3",
+        "px": "Bot_Side_L",
+        "nx": "Empty",
+        "py": "Corner_Vertical_3",
+        "ny": "Full_Vertical",
+        "pz": "Bot_Side_R",
+        "nz": "Empty"
+    },
+
+
+    {
+        "rule": "Mid_r0",
+        "tileType": "Mid",
+        "rotation": "0",
+        "px": "Full_Side",
+        "nx": "Empty",
+        "py": "Edge_Vertical_0",
+        "ny": "Edge_Vertical_0",
+        "pz": "Mid_Side_R",
+        "nz": "Mid_Side_R"
+    },
+    {
+        "rule": "Mid_r1",
+        "tileType": "Mid",
+        "rotation": "1",
+        "px": "Mid_Side_R",
+        "nx": "Mid_Side_R",
+        "py": "Edge_Vertical_1",
+        "ny": "Edge_Vertical_1",
+        "pz": "Empty",
+        "nz": "Full_Side"
+    },
+    {
+        "rule": "Mid_r2",
+        "tileType": "Mid",
+        "rotation": "2",
+        "px": "Empty",
+        "nx": "Full_Side",
+        "py": "Edge_Vertical_2",
+        "ny": "Edge_Vertical_2",
+        "pz": "Mid_Side_L",
+        "nz": "Mid_Side_L"
+    },
+    {
+        "rule": "Mid_r3",
+        "tileType": "Mid",
+        "rotation": "3",
+        "px": "Mid_Side_L",
+        "nx": "Mid_Side_L",
+        "py": "Edge_Vertical_3",
+        "ny": "Edge_Vertical_3",
+        "pz": "Full_Side",
+        "nz": "Empty"
+    },
+
+    {
+        "rule": "Mid_Inverse_r0",
+        "tileType": "Mid_Inverse",
+        "rotation": "0",
+        "px": "Full_Side",
+        "nx": "Mid_Side_R",
+        "py": "Inverse_Vertical_0",
+        "ny": "Inverse_Vertical_0",
+        "pz": "Mid_Side_R",
+        "nz": "Full_Side"
+    },
+    {
+        "rule": "Mid_Inverse_r1",
+        "tileType": "Mid_Inverse",
+        "rotation": "1",
+        "px": "Mid_Side_R",
+        "nx": "Full_Side",
+        "py": "Inverse_Vertical_1",
+        "ny": "Inverse_Vertical_1",
+        "pz": "Mid_Side_L",
+        "nz": "Full_Side"
+    },
+    {
+        "rule": "Mid_Inverse_r2",
+        "tileType": "Mid_Inverse",
+        "rotation": "2",
+        "px": "Mid_Side_L",
+        "nx": "Full_Side",
+        "py": "Inverse_Vertical_2",
+        "ny": "Inverse_Vertical_2",
+        "pz": "Full_Side",
+        "nz": "Mid_Side_L"
+    },
+    {
+        "rule": "Mid_Inverse_r3",
+        "tileType": "Mid_Inverse",
+        "rotation": "3",
+        "px": "Full_Side",
+        "nx": "Mid_Side_L",
+        "py": "Inverse_Vertical_3",
+        "ny": "Inverse_Vertical_3",
+        "pz": "Full_Side",
+        "nz": "Mid_Side_R"
+    },
+
+    {
+        "rule": "Mid_Corner_r0",
+        "tileType": "Mid_Corner",
+        "rotation": "0",
+        "px": "Mid_Side_R",
+        "nx": "Empty",
+        "py": "Corner_Vertical_0",
+        "ny": "Corner_Vertical_0",
+        "pz": "Empty",
+        "nz": "Mid_Side_R"
+    },
+    {
+        "rule": "Mid_Corner_r1",
+        "tileType": "Mid_Corner",
+        "rotation": "1",
+        "px": "Empty",
+        "nx": "Mid_Side_R",
+        "py": "Corner_Vertical_1",
+        "ny": "Corner_Vertical_1",
+        "pz": "Empty",
+        "nz": "Mid_Side_L"
+    },
+    {
+        "rule": "Mid_Corner_r2",
+        "tileType": "Mid_Corner",
+        "rotation": "2",
+        "px": "Empty",
+        "nx": "Mid_Side_L",
+        "py": "Corner_Vertical_2",
+        "ny": "Corner_Vertical_2",
+        "pz": "Mid_Side_L",
+        "nz": "Empty"
+    },
+    {
+        "rule": "Mid_Corner_r3",
+        "tileType": "Mid_Corner",
+        "rotation": "3",
+        "px": "Mid_Side_L",
+        "nx": "Empty",
+        "py": "Corner_Vertical_3",
+        "ny": "Corner_Vertical_3",
+        "pz": "Mid_Side_R",
+        "nz": "Empty"
+    },
+
+
+    {
+        "rule": "Top_r0",
+        "tileType": "Top",
+        "rotation": "0",
+        "px": "Full_Side",
+        "nx": "Empty",
+        "py": "Empty",
+        "ny": "Edge_Vertical_0",
+        "pz": "Top_Side_R",
+        "nz": "Top_Side_R"
+    },
+    {
+        "rule": "Top_r1",
+        "tileType": "Top",
+        "rotation": "1",
+        "px": "Top_Side_R",
+        "nx": "Top_Side_R",
+        "py": "Empty",
+        "ny": "Edge_Vertical_1",
+        "pz": "Empty",
+        "nz": "Full_Side"
+    },
+    {
+        "rule": "Top_r2",
+        "tileType": "Top",
+        "rotation": "2",
+        "px": "Empty",
+        "nx": "Full_Side",
+        "py": "Empty",
+        "ny": "Edge_Vertical_2",
+        "pz": "Top_Side_L",
+        "nz": "Top_Side_L"
+    },
+    {
+        "rule": "Top_r3",
+        "tileType": "Top",
+        "rotation": "3",
+        "px": "Top_Side_L",
+        "nx": "Top_Side_L",
+        "py": "Empty",
+        "ny": "Edge_Vertical_3",
+        "pz": "Full_Side",
+        "nz": "Empty"
+    },
+
+    {
+        "rule": "Top_Inverse_r0",
+        "tileType": "Top_Inverse",
+        "rotation": "0",
+        "px": "Full_Side",
+        "nx": "Top_Side_R",
+        "py": "Empty",
+        "ny": "Inverse_Vertical_0",
+        "pz": "Top_Side_R",
+        "nz": "Full_Side"
+    },
+    {
+        "rule": "Top_Inverse_r1",
+        "tileType": "Top_Inverse",
+        "rotation": "1",
+        "px": "Top_Side_R",
+        "nx": "Full_Side",
+        "py": "Empty",
+        "ny": "Inverse_Vertical_1",
+        "pz": "Top_Side_L",
+        "nz": "Full_Side"
+    },
+    {
+        "rule": "Top_Inverse_r2",
+        "tileType": "Top_Inverse",
+        "rotation": "2",
+        "px": "Top_Side_L",
+        "nx": "Full_Side",
+        "py": "Empty",
+        "ny": "Inverse_Vertical_2",
+        "pz": "Full_Side",
+        "nz": "Top_Side_L"
+    },
+    {
+        "rule": "Top_Inverse_r3",
+        "tileType": "Top_Inverse",
+        "rotation": "3",
+        "px": "Full_Side",
+        "nx": "Top_Side_L",
+        "py": "Empty",
+        "ny": "Inverse_Vertical_3",
+        "pz": "Full_Side",
+        "nz": "Top_Side_R"
+    },
+
+    {
+        "rule": "Top_Corner_r0",
+        "tileType": "Top_Corner",
+        "rotation": "0",
+        "px": "Top_Side_R",
+        "nx": "Empty",
+        "py": "Empty",
+        "ny": "Corner_Vertical_0",
+        "pz": "Empty",
+        "nz": "Top_Side_R"
+    },
+    {
+        "rule": "Top_Corner_r1",
+        "tileType": "Top_Corner",
+        "rotation": "1",
+        "px": "Empty",
+        "nx": "Top_Side_R",
+        "py": "Empty",
+        "ny": "Corner_Vertical_1",
+        "pz": "Empty",
+        "nz": "Top_Side_L"
+    },
+    {
+        "rule": "Top_Corner_r2",
+        "tileType": "Top_Corner",
+        "rotation": "2",
+        "px": "Empty",
+        "nx": "Top_Side_L",
+        "py": "Empty",
+        "ny": "Corner_Vertical_2",
+        "pz": "Top_Side_L",
+        "nz": "Empty"
+    },
+    {
+        "rule": "Top_Corner_r3",
+        "tileType": "Top_Corner",
+        "rotation": "3",
+        "px": "Top_Side_L",
+        "nx": "Empty",
+        "py": "Empty",
+        "ny": "Corner_Vertical_3",
+        "pz": "Top_Side_R",
+        "nz": "Empty"
+    },
+
+
+    {
+        "rule": "Full",
+        "tileType": "Full",
+        "rotation": "0",
+        "px": "Full_Side",
+        "nx": "Full_Side",
+        "py": "Full_Vertical",
+        "ny": "Full_Vertical",
+        "pz": "Full_Side",
+        "nz": "Full_Side"
+    },
+    {
+        "rule": "Empty",
+        "tileType": "Empty",
+        "rotation": "0",
+        "px": "Empty",
+        "nx": "Empty",
+        "py": "Empty",
+        "ny": "Empty",
+        "pz": "Empty",
+        "nz": "Empty"
+    }]
+}
