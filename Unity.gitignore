@@ -1,0 +1,22 @@
+# Unity folders to ignore
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# OS/system files
+.DS_Store
+*.swp
+*.swo
+*.tmp
+
+# IDE files
+*.csproj
+*.sln
+*.user
+.vscode/
+.idea/
